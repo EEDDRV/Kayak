@@ -27,4 +27,4 @@ def Get_Flight_Data(From, To, YYMMDD):
 	print(str(response.text.encode(sys.stdout.encoding, errors='replace')))
 	return results
 if __name__ == "__main__":
-	print(Get_Flight_Data("JAX", "DAL", "2021-06-11"))
+	print(Get_Flight_Data("JAX", "DAL", "2021-06-11"))#<- Example
